@@ -60,6 +60,8 @@ namespace NatureVR
         /// </summary>
         private async UniTask InitializeAsync()
         {
+            m_Player.Initialize();
+
             m_AudioManager.Initialize();
 
             m_DataManager.Initialize();
